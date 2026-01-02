@@ -28,7 +28,8 @@ DevOps: Docker, Docker Compose, Git LFS
 
 
 
-🚀 How to Run (The Easy Way)
+🚀 How to Run (The Easy Way) - 
+
 This project is fully "Dockerized," so you don't need to install Python or libraries manually.
 
 Clone the repository to your local machine.
@@ -46,7 +47,8 @@ Bash
 docker-compose up --build
 View the app: Go to http://localhost:8501 in your browser.
 
-📂 What's Inside?
+📂 What's Inside? - 
+
 app.py: The main code for the website and recommendation logic.
 
 similarity.pkl: The AI model that calculates which movies are similar.
