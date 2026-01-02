@@ -1,4 +1,4 @@
-🎬 Movie Recommender System
+🎬 Movie Recommender System - 
 A content-based movie recommendation engine built with Python and Streamlit, featuring a Dockerized environment for easy deployment. 
 
 🌟 Key Features
