@@ -1,7 +1,8 @@
 🎬 Movie Recommender System - 
 A content-based movie recommendation engine built with Python and Streamlit, featuring a Dockerized environment for easy deployment. 
 
-🌟 Key Features
+🌟 Key Features - 
+
 Content-Based Filtering: Recommends movies using Cosine Similarity on a pre-processed TMDB dataset.
 
 Cinematic User Interface: A custom-styled Streamlit UI featuring a dark "Netflix-inspired" theme and responsive movie cards.
@@ -12,7 +13,9 @@ Secure API Handling: Uses python-dotenv to keep API keys private and out of the 
 
 Containerized Environment: Fully portable and reproducible setup using Docker and Docker Compose.
 
-🛠️ Technical Stack
+🛠️ Technical Stack - 
+
+
 Language: Python 3.11+
 
 Frontend: Streamlit
