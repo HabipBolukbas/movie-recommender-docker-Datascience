@@ -1,8 +1,7 @@
-version: '3.8'
 services:
   movie-app:
     build: .
     ports:
       - "8501:8501"
-    volumes:
-      - .:/app
+    env_file:
+      - .env  # This tells Docker to load your secret key

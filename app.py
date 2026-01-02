@@ -1,3 +1,6 @@
+import os
+from dotenv import load_dotenv
+load_dotenv() # This loads the variables from .env
 import streamlit as st
 import pickle
 import pandas as pd
@@ -56,8 +59,10 @@ set_bg_hack()
 
 # 3. Function to fetch the poster from TMDB
 def fetch_poster(movie_id):
-    api_key = "d03b95f5cbf201ac88215e5a2536e6c5"
+    # Instead of the hardcoded string, use os.getenv
+    api_key = os.getenv("TMDB_API_KEY")
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&language=en-US"
+    # ... the rest of your function logic ...
     
     try:
         response = requests.get(url)
